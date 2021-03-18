@@ -20,6 +20,9 @@
 #ifndef DIRECTORY_H_
 #define DIRECTORY_H_
 
+#include <stdlib.h>
+#include <libgen.h>
+
 int mkdir_with_parents(const char *dir, int mode);
 char* build_path(const char* elem, ...);
 

@@ -19,7 +19,6 @@
 
 #include <libcrippy-1.0/boolean.h>
 #include <libcrippy-1.0/libcrippy.h>
-
 #include <plist/plist.h>
 //#define PRINT_VERBOSE(min_level, ...) if (verbose >= min_level) { printf(__VA_ARGS__); };
 #define PRINT_VERBOSE(min_level, ...) if (10 >= min_level) { printf(__VA_ARGS__); };

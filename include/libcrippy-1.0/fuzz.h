@@ -20,6 +20,8 @@
 #ifndef FUZZ_H_
 #define FUZZ_H_
 
+#include <stdio.h>
+#include <stdlib.h>
 
 unsigned int random_int();
 unsigned char random_char();
